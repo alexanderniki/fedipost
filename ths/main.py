@@ -1,4 +1,4 @@
-from fedipost.tools import *
+from ths.tools import *
 
 
 def main():

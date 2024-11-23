@@ -39,6 +39,9 @@ def select_random_item(items: List) -> Any:
     """
     ...
 
+def rename_file(current_name: str, new_name: str) -> str:
+    ...
+
 
 def setup_logging():
     ...

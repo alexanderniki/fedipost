@@ -1,4 +1,3 @@
-from http import client
 """
 File: client.py
 Version: 0.1
