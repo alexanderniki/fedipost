@@ -18,7 +18,7 @@ class Post:
     """
     Post
 
-    Attributes:
+    Attr:
         content_warning (str): CW
         main_text (str): Posts' text
         attachments_list (List): Attachments paths
