@@ -10,7 +10,6 @@ Description: A collection of helpers and tools
 
 import os
 import random
-import logging
 
 from typing import List, Any
 
@@ -27,7 +26,7 @@ def get_filelist(dir_path: str) -> List[str]:
     """
     ...
 
-def select_random_item(items: List) -> Any:
+def select_random_listitem(items: List) -> Any:
     """
     Select a random item from a List
 
