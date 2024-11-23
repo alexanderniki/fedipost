@@ -17,9 +17,18 @@ from typing_extensions import Tuple
 class Post:
     """
     Post
+
+    Attributes:
+        content_warning (str): CW
+        main_text (str): Posts' text
+        attachments_list (List): Attachments paths
+        location (Tuple): Location
+
+    TODO:
+        - Find documentation about locations in Fediverse
     """
 
-    content_warning: str = ""  # CW
-    main_text: str = ""        # Main text
-    attachments_list: List = []     # Attachments (paths)
-    location: Tuple = (0.0, 0.0)  # !TODO: find documentation about locations in Fedi
+    content_warning: str = ""
+    main_text: str = ""
+    attachments_list: List = []
+    location: Tuple = (0.0, 0.0)

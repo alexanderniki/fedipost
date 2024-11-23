@@ -15,7 +15,11 @@ from dataclasses import dataclass
 class Picture:
     """
     Picture
+
+    Attributes:
+        pic_path (str): Path to the picture
+        alt_text (str): Alt text for the picture
     """
 
-    pic_path: str = ""  # Path to the picture
-    alt_text: str = ""  # Alt text for the picture
+    pic_path: str = ""
+    alt_text: str = ""

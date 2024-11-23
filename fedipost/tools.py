@@ -23,7 +23,7 @@ def get_filelist(dir_path: str) -> List[str]:
         dir_path (str): Path to Directory
 
     Returns:
-        (List[str]): A list of files in given directory
+        List[str]: A list of files in given directory
     """
     ...
 
@@ -35,7 +35,7 @@ def select_random_item(items: List) -> Any:
         items (List): A List of items
 
     Returns:
-        (Any): The random item selectedß
+        Any: The random item selected
     """
     ...
 
