@@ -1,4 +1,4 @@
-from ths.tools import *
+from thunderstorm.tools import *
 
 
 def main():
