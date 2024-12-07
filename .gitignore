@@ -21,6 +21,8 @@ sdist/
 var/
 wheels/
 share/python-wheels/
+bin/
+lib/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -129,6 +131,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+pyvenv.cfg
 
 # Spyder project settings
 .spyderproject
