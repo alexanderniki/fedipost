@@ -25,7 +25,7 @@ class Post:
         location (Tuple): Location
 
     TODO:
-        - Find documentation about locations in Fediverse
+        - Find documentation about geo locations in Fediverse
     """
 
     content_warning: str = ""
